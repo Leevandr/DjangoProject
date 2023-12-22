@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#chat-messages p {
+    margin: 5px 0;
+}
+
+#chat-form {
+    margin-top: 10px;
+}
+
+#chat-form textarea {
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#chat-form button {
+    width: 28%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#chat-form button:hover {
+    background-color: #45a049;
+}
